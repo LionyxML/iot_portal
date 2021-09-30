@@ -1,0 +1,23 @@
+.hero__image {
+  height: calc(100vh - 71px);
+  background: url(https://images.pexels.com/photos/3877660/pexels-photo-3877660.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+    no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__text {
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 10px;
+  margin-top: -100px;
+  max-width: 500px;
+}
+
+.waves {
+  position: fixed;
+  bottom: -10px;
+  z-index: 10;
+}

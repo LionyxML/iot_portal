@@ -21,7 +21,7 @@ const Laboratorios = () => {
 
       <Container
         className="mx-auto md container--with-border"
-        style={{ maxWidth: "930px" }}
+        style={{ maxWidth: "850px" }}
       >
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link0">
           <h3>
