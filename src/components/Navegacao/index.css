@@ -1,0 +1,19 @@
+.nav__red {
+  background-color: #fb3232;
+  text-transform: capitalize;
+}
+
+.nav__red .nav-link {
+  text-decoration: none;
+  color: white !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.nav__red .nav-link:hover {
+  color: black !important;
+  text-shadow: white 2px;
+}
+
+.navbar-toggler {
+  border-color: white !important;
+}

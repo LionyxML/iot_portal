@@ -1,0 +1,17 @@
+import React from "react";
+import Iframe from "react-iframe";
+
+export default function Meteorologia() {
+  return (
+    <Iframe
+      url="http://ec2-18-117-132-1.us-east-2.compute.amazonaws.com:1880/mui/#!/1"
+      width="100%"
+      height="100%"
+      id="myId"
+      className=""
+      display="initial"
+      position="relative"
+      scrolling="yes"
+    />
+  );
+}
