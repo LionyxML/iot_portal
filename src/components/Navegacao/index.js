@@ -23,7 +23,7 @@ export const Navegacao = () => {
           ></Nav>
           <Nav className="mx-2 font-weight-bold">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/">Laboratórios</Nav.Link>
+            <Nav.Link href="/laboratorios">Laboratórios</Nav.Link>
 
             <NavDropdown
               title="Dados"

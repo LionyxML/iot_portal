@@ -29,7 +29,7 @@ const Carrossel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          src="https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           alt="Second slide"
         />
         <Carousel.Caption>
