@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Tab, Row, Col, ListGroup, Card } from "react-bootstrap";
+import { Container, Tab, Row, Col, ListGroup } from "react-bootstrap";
 import estacao from "../../img/estacao.png";
 import "./index.css";
 
