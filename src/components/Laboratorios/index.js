@@ -2,6 +2,12 @@ import React from "react";
 import { Container, Tab, Row, Col, ListGroup } from "react-bootstrap";
 import estacao from "../../img/estacao.png";
 import "./index.css";
+import { TiChevronRightOutline } from "react-icons/ti";
+import { MdPhotoCamera } from "react-icons/md";
+import { IoMdText } from "react-icons/io";
+import { FaTemperatureLow, FaVideo } from "react-icons/fa";
+import { ImAttachment } from "react-icons/im";
+import { GoCloudDownload } from "react-icons/go";
 
 const Laboratorios = () => {
   return (
@@ -15,28 +21,36 @@ const Laboratorios = () => {
 
       <Container className="mx-3 container--with-border">
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link0">
-          <h3>Estação Solarimétrica</h3>
+          <h3>
+            <TiChevronRightOutline />
+            Estação Solarimétrica
+          </h3>
           <Row>
             <Col sm={3}>
               <ListGroup>
                 <ListGroup.Item action href="#link0">
-                  Foto
+                  <MdPhotoCamera />
+                  &nbsp;Foto
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link1">
-                  Descrição
+                  <IoMdText />
+                  &nbsp;Descrição
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link2">
-                  Medições
+                  <FaTemperatureLow />
+                  &nbsp;Características
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link3">
-                  Vídeo
+                  <FaVideo />
+                  &nbsp;Vídeo
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link4">
-                  Documentos
+                  <ImAttachment />
+                  &nbsp;Documentos
                 </ListGroup.Item>
               </ListGroup>
             </Col>
-            <Col sm={8}>
+            <Col sm={9}>
               <Tab.Content>
                 <Tab.Pane eventKey="#link0">
                   <img
@@ -65,11 +79,11 @@ const Laboratorios = () => {
                     variáveis:
                   </p>
                   <ul>
-                    <li>Temperatura (graus C)</li>
+                    <li>Temperatura (&#176;C)</li>
                     <li>Umidade Relativa (%)</li>
-                    <li>Irradiação Solar (kWh/m2)</li>
-                    <li>Velocidaede do Vento (kWh/m2)</li>
-                    <li>Direção do vento (graus)</li>
+                    <li>Irradiação Solar (kWh/m&sup2;)</li>
+                    <li>Velocidaede do Vento (kWh/m&sup2;)</li>
+                    <li>Direção do vento (&#176;)</li>
                   </ul>
                   <p>É possível obter registros desde Dez/2019!!!</p>
                 </Tab.Pane>
@@ -85,11 +99,28 @@ const Laboratorios = () => {
                   ></iframe>
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link4">
-                  Os manuais desse equipamento podem ser acessados abaixo:
+                  <p>
+                    Os manuais desse equipamento podem ser acessados abaixo:
+                  </p>
                   <ul>
-                    <li>Manual do Datalogger</li>
-                    <li>Diagrama Elétrico</li>
-                    <li>Manual dos Equipamentos</li>
+                    <li>
+                      Manual do Datalogger{" "}
+                      <a href="#">
+                        <GoCloudDownload />
+                      </a>
+                    </li>
+                    <li>
+                      Diagrama Elétrico{" "}
+                      <a href="#">
+                        <GoCloudDownload />
+                      </a>
+                    </li>
+                    <li>
+                      Manual dos Equipamentos{" "}
+                      <a href="#">
+                        <GoCloudDownload />
+                      </a>
+                    </li>
                   </ul>
                 </Tab.Pane>
               </Tab.Content>
