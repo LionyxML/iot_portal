@@ -19,14 +19,17 @@ const Laboratorios = () => {
         aprendizado prático na área de Energias Renováveis.
       </p>
 
-      <Container className="mx-3 container--with-border">
+      <Container
+        className="mx-auto md container--with-border"
+        style={{ maxWidth: "930px" }}
+      >
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link0">
           <h3>
             <TiChevronRightOutline />
             Estação Solarimétrica
           </h3>
           <Row>
-            <Col sm={3}>
+            <Col sm={4}>
               <ListGroup>
                 <ListGroup.Item action href="#link0">
                   <MdPhotoCamera />
@@ -38,7 +41,7 @@ const Laboratorios = () => {
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link2">
                   <FaTemperatureLow />
-                  &nbsp;Características
+                  &nbsp;Atributos
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link3">
                   <FaVideo />
@@ -50,7 +53,7 @@ const Laboratorios = () => {
                 </ListGroup.Item>
               </ListGroup>
             </Col>
-            <Col sm={9}>
+            <Col sm={8}>
               <Tab.Content>
                 <Tab.Pane eventKey="#link0">
                   <img
@@ -89,7 +92,7 @@ const Laboratorios = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link3">
                   <iframe
-                    width="560"
+                    width="100%"
                     height="315"
                     src="https://www.youtube-nocookie.com/embed/6rcXCyfVUEA?controls=0"
                     title="YouTube video player"
@@ -105,19 +108,19 @@ const Laboratorios = () => {
                   <ul>
                     <li>
                       Manual do Datalogger{" "}
-                      <a href="#">
+                      <a href="/#">
                         <GoCloudDownload />
                       </a>
                     </li>
                     <li>
                       Diagrama Elétrico{" "}
-                      <a href="#">
+                      <a href="/#">
                         <GoCloudDownload />
                       </a>
                     </li>
                     <li>
                       Manual dos Equipamentos{" "}
-                      <a href="#">
+                      <a href="/#">
                         <GoCloudDownload />
                       </a>
                     </li>

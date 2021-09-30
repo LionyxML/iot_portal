@@ -6,7 +6,13 @@ import "./index.css";
 export const Navegacao = () => {
   return (
     <>
-      <Navbar bg="" variant="dark" expand="md" className="nav__red">
+      <Navbar
+        bg=""
+        variant="dark"
+        expand="md"
+        className="nav__red"
+        sticky="top"
+      >
         <Navbar.Brand href="/" className="mx-2">
           <img
             src={logo}
