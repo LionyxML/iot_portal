@@ -10,3 +10,9 @@
   padding-bottom: 5px;
   border-bottom: 1px solid #cacaca;
 }
+
+.lab__title {
+  margin-top: 3em;
+  max-width: 60%;
+  margin-bottom: 2em;
+}
