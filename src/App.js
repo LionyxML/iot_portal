@@ -6,6 +6,9 @@ import Sobre from "./components/Sobre";
 import Meteorologia from "./components/Meteorologia";
 import Contato from "./components/Contato";
 import Laboratorios from "./components/Laboratorios";
+import ConsumoEnergia from "./components/ConsumoEnergia";
+import EmDesenvolvimento from "./components/EmDesenvolvimento";
+import Subestacao from "./components/Subestacao";
 
 function App() {
   return (
@@ -15,6 +18,15 @@ function App() {
         <Switch>
           <Route path="/nodeMeteorologia">
             <Meteorologia />
+          </Route>
+          <Route path="/nodeConsumoEnergia">
+            <ConsumoEnergia />
+          </Route>
+          <Route path="/nodeSubestacao">
+            <Subestacao />
+          </Route>
+          <Route path="/emDesenvolvimento">
+            <EmDesenvolvimento />
           </Route>
           <Route path="/home">
             <Home />

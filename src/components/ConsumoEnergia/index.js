@@ -1,10 +1,10 @@
 import React from "react";
 import Iframe from "react-iframe";
 
-export default function Meteorologia() {
+export default function ConsumoEnergia() {
   return (
     <Iframe
-      url="http://ec2-18-117-132-1.us-east-2.compute.amazonaws.com:1880/ui/#!/5"
+      url="http://ec2-18-117-132-1.us-east-2.compute.amazonaws.com:1880/ui/#!/4"
       width="100%"
       height="100%"
       id="myId"

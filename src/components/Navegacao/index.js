@@ -40,22 +40,22 @@ export const Navegacao = () => {
                 Meteorologia
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/nodeMeteorologia">
+              <NavDropdown.Item href="/nodeConsumoEnergia">
                 Consumo de Energia
               </NavDropdown.Item>
-              <NavDropdown.Item href="/nodeMeteorologia">
+              <NavDropdown.Item href="/emDesenvolvimento">
                 Geração de Energia
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/nodeMeteorologia">
+              <NavDropdown.Item href="/emDesenvolvimento">
                 Consumo de Água
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/nodeMeteorologia">
+              <NavDropdown.Item href="/nodeSubestacao">
                 Subestação Didática
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/nodeMeteorologia">
+              <NavDropdown.Item href="/emDesenvolvimento">
                 Gerador de Emergência
               </NavDropdown.Item>
             </NavDropdown>
