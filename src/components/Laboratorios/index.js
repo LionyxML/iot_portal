@@ -103,7 +103,7 @@ const Laboratorios = () => {
                 Energia Elétrica Solar em sistemas Off-Grid e Grid-Tie.
               </p>
               <p>
-                Já pensou como podemos utilziar a energia solar em nossas vidas?
+                Já pensou como podemos utilizar a energia solar em nossas vidas?
                 Como economizar energia ao mesmo tempo em que ajuda o
                 meio-ambiente.
               </p>
@@ -112,38 +112,42 @@ const Laboratorios = () => {
           atributo={
             <>
               <p>
-                Nossa estação proporciona a medição e registro das seguintes
-                variáveis:
+                Esse kit proporciona a possibilidade de aquisição de
+                conhecimentos em:
               </p>
               <ul>
-                <li>Temperatura (&#176;C)</li>
-                <li>Umidade Relativa (%)</li>
-                <li>Irradiação Solar (kWh/m&sup2;)</li>
-                <li>Velocidaede do Vento (kWh/m&sup2;)</li>
-                <li>Direção do vento (&#176;)</li>
+                <li>Módulos fotovoltaicos</li>
+                <li>String Boxes</li>
+                <li>QDCA</li>
+                <li>Controladores de carga com e sem MPTT</li>
+                <li>Inversor de frequência</li>
+                <li>Sistemas Conectados à Rede (On-grid ou Grid-tied)</li>
+                <li>Sistemas Desliados da Rede (Off-grid ou isolados)</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
             </>
           }
           video={"https://www.youtube.com/embed/pHsaAaCII9E"}
           documentos={
             <>
-              <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
+              <p>
+                Os manuais e arquivos relevantes desse kit podem ser acessados
+                abaixo:
+              </p>
               <ul>
                 <li>
-                  Manual do Datalogger
+                  Arquivo 1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Diagrama Elétrico
+                  Arquivo 2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Manual dos Equipamentos
+                  Arquivo 3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
