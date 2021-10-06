@@ -99,17 +99,14 @@ const Laboratorios = () => {
           descricao={
             <>
               <p>
-                A estação solarimétrica é um tipo especial de estação
-                meteorológica onde os instrumentos nos proporcionam coletar
-                dados importantes para a predição de geração de energia na
-                região onde ela está instalada.
+                Esse é um kit didático destinado ao aprendizado de geração de
+                Energia Elétrica Solar em sistemas Off-Grid e Grid-Tie.
               </p>
               <p>
-                Já imaginou como podemos ter certeza que uma usina solar ou
-                eólica realmente irá gerar energia suficiente em uma determinada
-                localidade?
+                Já pensou como podemos utilziar a energia solar em nossas vidas?
+                Como economizar energia ao mesmo tempo em que ajuda o
+                meio-ambiente.
               </p>
-              <p>A estação Solarimétrica é a resposta!</p>
             </>
           }
           atributo={
