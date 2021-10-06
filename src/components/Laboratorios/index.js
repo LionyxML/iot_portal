@@ -162,55 +162,50 @@ const Laboratorios = () => {
           foto={pelton}
           descricao={
             <>
+              <p>Energia gerada pelo movimento de quedas d'água.</p>
               <p>
-                A estação solarimétrica é um tipo especial de estação
-                meteorológica onde os instrumentos nos proporcionam coletar
-                dados importantes para a predição de geração de energia na
-                região onde ela está instalada.
+                Como aproveitar quedas d'água naturais com o mínimo de agressão
+                ao meio ambiente? Temos nesse kit uma turbina do tipo Pelton com
+                2 injetores reguláveis para estudo e um inversor que faz a
+                conversão da energia CC gerada para conexão à rede elétrica.
               </p>
-              <p>
-                Já imaginou como podemos ter certeza que uma usina solar ou
-                eólica realmente irá gerar energia suficiente em uma determinada
-                localidade?
-              </p>
-              <p>A estação Solarimétrica é a resposta!</p>
             </>
           }
           atributo={
             <>
-              <p>
-                Nossa estação proporciona a medição e registro das seguintes
-                variáveis:
-              </p>
+              <p>Esse kit didático possibilita:</p>
               <ul>
-                <li>Temperatura (&#176;C)</li>
-                <li>Umidade Relativa (%)</li>
-                <li>Irradiação Solar (kWh/m&sup2;)</li>
-                <li>Velocidaede do Vento (kWh/m&sup2;)</li>
-                <li>Direção do vento (&#176;)</li>
+                <li>Controle de Vazão</li>
+                <li>Controle de Pressão</li>
+                <li>Simulação de Turbulências</li>
+                <li>Controle dos bicos injetores</li>
+                <li>Medição em tempo real</li>
+                <li>Análise das variáveis Elétricas</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
             </>
           }
           video={"https://www.youtube.com/embed/JEl_TC2qo5w"}
           documentos={
             <>
-              <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
+              <p>
+                Os manuais e arquivos relevantes desse kit podem ser acessados
+                abaixo:
+              </p>
               <ul>
                 <li>
-                  Manual do Datalogger
+                  Arquivo 1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Diagrama Elétrico
+                  Arquivo 2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Manual dos Equipamentos
+                  Arquivo 3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
