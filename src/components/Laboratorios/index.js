@@ -60,7 +60,7 @@ const Laboratorios = () => {
                 <li>Velocidaede do Vento (kWh/m&sup2;)</li>
                 <li>Direção do vento (&#176;)</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
+              <p>É possível obter registros desde Outubro de 2019!!!</p>
             </>
           }
           video={
@@ -223,13 +223,11 @@ const Laboratorios = () => {
               <p>
                 Nem só de fontes de energia vive o profissional de Energias
                 Renováveis. é também preciso trabalhar para o melhor uso da
-                energia consumida. Nesse kit trabalhamos formas melhor do
-                consumo de energia em sistemas de Aquecimento, Ventilação e
-                Condicionamento de ar.
+                energia consumida.
               </p>
               <p>
                 É também preciso trabalhar para o melhor uso da energia
-                consumida. Nesse kit trabalhamos formas melhor do consumo de
+                consumida. Nesse kit trabalhamos formas melhorar o consumo
                 energia em sistemas de Aquecimento, Ventilação e Condicionamento
                 de ar.
               </p>
@@ -237,18 +235,14 @@ const Laboratorios = () => {
           }
           atributo={
             <>
-              <p>
-                Nossa estação proporciona a medição e registro das seguintes
-                variáveis:
-              </p>
+              <p>Com esse equipamento é possível:</p>
               <ul>
-                <li>Temperatura (&#176;C)</li>
-                <li>Umidade Relativa (%)</li>
-                <li>Irradiação Solar (kWh/m&sup2;)</li>
-                <li>Velocidaede do Vento (kWh/m&sup2;)</li>
-                <li>Direção do vento (&#176;)</li>
+                <li>Experimentar com diversos tipos de ventiladores</li>
+                <li>Calcular o consumo de condicionameto de ar</li>
+                <li>Calcular o consumo de aquecimento de ar</li>
+                <li>Gerar gráficos</li>
+                <li>Analisar consequências de tomadas de decisões</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
             </>
           }
           video={"https://www.youtube.com/embed/eEJtwBDE9Zs"}
@@ -257,19 +251,19 @@ const Laboratorios = () => {
               <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
               <ul>
                 <li>
-                  Manual do Datalogger
+                  Arquivo1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Diagrama Elétrico
+                  Arquivo2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Manual dos Equipamentos
+                  Arquivo3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
@@ -285,33 +279,28 @@ const Laboratorios = () => {
           descricao={
             <>
               <p>
-                A estação solarimétrica é um tipo especial de estação
-                meteorológica onde os instrumentos nos proporcionam coletar
-                dados importantes para a predição de geração de energia na
-                região onde ela está instalada.
+                Como a energia elétrica que chega em casa é invisível, temos de
+                dispor de formas de medição e controle para a "saúde" de nossa
+                rede.
               </p>
               <p>
-                Já imaginou como podemos ter certeza que uma usina solar ou
-                eólica realmente irá gerar energia suficiente em uma determinada
-                localidade?
+                Com esse kit, podemos monitorar o excedente reativo e tomar
+                ações de controle. Também é possível monitorar a demanda de
+                forma à garantir que nunca seja ultrapassado o máximo de
+                contrato, evitando multas e disperdício.
               </p>
-              <p>A estação Solarimétrica é a resposta!</p>
             </>
           }
           atributo={
             <>
-              <p>
-                Nossa estação proporciona a medição e registro das seguintes
-                variáveis:
-              </p>
+              <p>Nosso kit didático proporciona experimentos em:</p>
               <ul>
-                <li>Temperatura (&#176;C)</li>
-                <li>Umidade Relativa (%)</li>
-                <li>Irradiação Solar (kWh/m&sup2;)</li>
-                <li>Velocidaede do Vento (kWh/m&sup2;)</li>
-                <li>Direção do vento (&#176;)</li>
+                <li>Cargas Indutivas, Capacitivas e Resistivas</li>
+                <li>Adição de capacitores </li>
+                <li>Medição de Fator de Potência</li>
+                <li>Medição de Demanda</li>
+                <li>Medição de Indicadores de qualidade de energia</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
             </>
           }
           video={"https://www.youtube.com/embed/vAK6hBRkUak"}
@@ -320,19 +309,19 @@ const Laboratorios = () => {
               <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
               <ul>
                 <li>
-                  Manual do Datalogger
+                  Arquivo1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Diagrama Elétrico
+                  Arquivo2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Manual dos Equipamentos
+                  Arquivo3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
@@ -348,33 +337,31 @@ const Laboratorios = () => {
           descricao={
             <>
               <p>
-                A estação solarimétrica é um tipo especial de estação
-                meteorológica onde os instrumentos nos proporcionam coletar
-                dados importantes para a predição de geração de energia na
-                região onde ela está instalada.
+                Em um mundo onde existem diversos fabricamentes de equipamentos,
+                cada qual com uma solução para problemas. É natural que
+                precisemos de muitos programas de computador para obter os
+                diversos resultados possíveis.
               </p>
               <p>
-                Já imaginou como podemos ter certeza que uma usina solar ou
-                eólica realmente irá gerar energia suficiente em uma determinada
-                localidade?
+                Nesses dashboards, implementamos uma solução de agregação de
+                resultados. Onde é possível obter todas as informações em
+                plataforma própria, sendo possível disponibilizá-las ao público
+                sem a necessidade de compartilhamento de senhas, contas ou
+                outros problemas de segurança.
               </p>
-              <p>A estação Solarimétrica é a resposta!</p>
+              <p>Esse site é justamente o tal dashboard compartilhável :)</p>
             </>
           }
           atributo={
             <>
-              <p>
-                Nossa estação proporciona a medição e registro das seguintes
-                variáveis:
-              </p>
+              <p>Nosso site/dashboard permite:</p>
               <ul>
-                <li>Temperatura (&#176;C)</li>
-                <li>Umidade Relativa (%)</li>
-                <li>Irradiação Solar (kWh/m&sup2;)</li>
-                <li>Velocidaede do Vento (kWh/m&sup2;)</li>
-                <li>Direção do vento (&#176;)</li>
+                <li>Conhecer os equipamentos do laboratório</li>
+                <li>Ter acesso à manuais de equipamentos</li>
+                <li>Acessar dados meteorológicos e de consumo de energia</li>
+                <li>Utilizar equipamentos remotos</li>
+                <li>Acessar dados de geração de energia e consumo de água</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
             </>
           }
           video={"https://www.youtube.com/embed/vDAUid5hYcI"}
@@ -383,19 +370,19 @@ const Laboratorios = () => {
               <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
               <ul>
                 <li>
-                  Manual do Datalogger
+                  Aquivo 1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Diagrama Elétrico
+                  Arquivo 2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Manual dos Equipamentos
+                  Arquivo 3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
@@ -411,33 +398,32 @@ const Laboratorios = () => {
           descricao={
             <>
               <p>
-                A estação solarimétrica é um tipo especial de estação
-                meteorológica onde os instrumentos nos proporcionam coletar
-                dados importantes para a predição de geração de energia na
-                região onde ela está instalada.
+                Você certamente já ouviu falar em reaproveitar bagaço de
+                cana-de-açúcar, cavacos e fluidos resultantes de processos.
               </p>
               <p>
-                Já imaginou como podemos ter certeza que uma usina solar ou
-                eólica realmente irá gerar energia suficiente em uma determinada
-                localidade?
+                Utilizando caldeiras específicas para geração de energia por
+                esses combustíveis, temos a possibilidade de gerar energia
+                elétrica. Essas usinas são gigantes e praticamente impossíveis
+                de caberem em um laboratório, mesmo miniaturizadas.
               </p>
-              <p>A estação Solarimétrica é a resposta!</p>
+              <p>
+                Por esse motivo, utilizamos um simulador onde o aluno poderá
+                realizar diversas operaçãoes como se estivesse no comando de uma
+                usina real.
+              </p>
             </>
           }
           atributo={
             <>
-              <p>
-                Nossa estação proporciona a medição e registro das seguintes
-                variáveis:
-              </p>
+              <p>Nosso ismulador proporciona:</p>
               <ul>
-                <li>Temperatura (&#176;C)</li>
-                <li>Umidade Relativa (%)</li>
-                <li>Irradiação Solar (kWh/m&sup2;)</li>
-                <li>Velocidaede do Vento (kWh/m&sup2;)</li>
-                <li>Direção do vento (&#176;)</li>
+                <li>Curva de geração por combustível</li>
+                <li>Partida de Caldeira</li>
+                <li>Parada Momentânea da Caldeira</li>
+                <li>Parada Total da Caldeira</li>
+                <li>Ações de Contingenciamento</li>
               </ul>
-              <p>É possível obter registros desde Dez/2019!!!</p>
             </>
           }
           video={"https://www.youtube.com/embed/vDAUid5hYcI"}
@@ -446,19 +432,19 @@ const Laboratorios = () => {
               <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
               <ul>
                 <li>
-                  Manual do Datalogger
+                  Arquivo 1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Diagrama Elétrico
+                  Arquivo 2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Manual dos Equipamentos
+                  Arquivo 3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
