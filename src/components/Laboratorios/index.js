@@ -251,19 +251,19 @@ const Laboratorios = () => {
               <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
               <ul>
                 <li>
-                  Arquivo1
+                  Arquivo 1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Arquivo2
+                  Arquivo 2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Arquivo3
+                  Arquivo 3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
@@ -309,19 +309,19 @@ const Laboratorios = () => {
               <p>Os manuais desse equipamento podem ser acessados abaixo:</p>
               <ul>
                 <li>
-                  Arquivo1
+                  Arquivo 1
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Arquivo2
+                  Arquivo 2
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
                 </li>
                 <li>
-                  Arquivo3
+                  Arquivo 3
                   <a href="/#">
                     <GoCloudDownload />
                   </a>
